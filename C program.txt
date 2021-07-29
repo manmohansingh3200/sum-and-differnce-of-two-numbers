@@ -1,0 +1,18 @@
+int main()
+{
+
+ int val1, val2;
+    float fval3, fval4;
+    
+    //Taking output from the user
+    scanf("%d %d", &val1 , &val2);
+    scanf("%f %f", &fval3, &fval4);
+    
+    //Printing output on console.
+    printf("%d %d\n" , val1+val2, val1-val2);
+    printf("%0.1f %0.1f", fval3+fval4, fval3-fval4);
+    
+   
+   
+    return 0;
+}
